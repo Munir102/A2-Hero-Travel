@@ -5,10 +5,15 @@
     line-height: 0;
 }
 
+p{
+    font-size: 16px;
+}
+
 :root{
     --primary-color: #131318;
     --secondary-color: #FF5400;
     --Dark-02: #424247;
+    --p-tag: rgba(19, 19, 24, 0.70);
 }
 
 /* header style start */
@@ -74,7 +79,6 @@
 
 .banner{
     margin: 3.12rem 0;
-    
 }
 
 /* banner css start */
@@ -144,21 +148,87 @@
     font-size: 16px;
     color: #FFF;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .primary_btn i{
     margin-right: 8px;
 }
 
+
+/* main section start */
+/* our popular tours start */
+.popular_tours{
+    margin-top: 100px;
+}
+
+.popular_area{
+    display: flex;
+    gap: 50px;
+}
+
+
+
+.popular_content h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.popular_content p{
+    line-height: 26px;
+    margin: 24px 0;
+    color: var(--p-tag);
+    max-width: 557px;
+}
+
+.popular_content li{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--p-tag);
+    margin-top: 16px;
+}
+
+.popular_tour_banner img{
+    width: 540px;
+    height: 550px;
+}
+
+.popular_tour_banner .primary_btn{
+    margin-top: 32px;
+}
+/* main section end */
+
+
 /* responsive for mobile devices */
 
 @media screen and (max-width: 600px) {
+    .header{
+        margin-top: 18px;
+    }
     .container{
         max-width: 540px;
     }
-    .header_content, .header_content ul{
+
+    .title_content h1{
+        font-size: 21.543px;
+    }
+
+    .title_content img{
+        width: 29px;
+        height: 34px;
+    }
+
+    /* .header_content, .header_content ul{
         flex-direction: column;
         text-align: center;
+    } */
+    .header_content ul{
+        display: none;
+    }
+    .banner{
+        margin: 20px 0;
     }
 
     .banner_content{
@@ -179,7 +249,7 @@
     .search_bar{
         flex-direction: column;
         width: 430px;
-        margin: 32px auto;
+        margin: 32px auto 0;
     }
 
     .search_bar input{
@@ -193,6 +263,11 @@
     .primary_btn{
         width: 430px;
     }
+
+    /* main section start */
+    /* our popular tours start */
+
+    
 
 
 }
