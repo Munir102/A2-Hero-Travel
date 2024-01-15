@@ -164,20 +164,19 @@ p{
 
 .popular_area{
     display: flex;
+    flex-direction: row;
     gap: 50px;
 }
 
-
-
 .popular_content h2{
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 800;
     color: var(--primary-color);
 }
 
 .popular_content p{
     line-height: 26px;
-    margin: 24px 0;
+    margin-top: 24px;
     color: var(--p-tag);
     max-width: 557px;
 }
@@ -195,8 +194,16 @@ p{
     height: 550px;
 }
 
-.popular_tour_banner .primary_btn{
-    margin-top: 32px;
+.secondary_btn{
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    width: 174px;
+    height: 52px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 700;
+    cursor: pointer;
 }
 /* main section end */
 
@@ -212,7 +219,7 @@ p{
     }
 
     .title_content h1{
-        font-size: 21.543px;
+        font-size: 22px;
     }
 
     .title_content img{
@@ -267,8 +274,21 @@ p{
     /* main section start */
     /* our popular tours start */
 
-    
+    .popular_tours{
+        margin-top: 24px;
+    }
 
+    .popular_area{
+        flex-direction: column;
+    }
+
+    .title_content h1{
+        font-size: 20px;
+    }
+
+    .secondary_btn{
+        margin-top: 10px;
+    }
 
 }
 
