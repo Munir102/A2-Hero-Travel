@@ -4,26 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <title>Hero Travel</title>
 </head>
 <body>
     <header class="header">
-        <div class="header_content">
-            <div class="title_content">
-                <img src="./assets/img/Group 40071 (2).png" alt="">
-                <h1>Hero <span>Travel</span></h1>
-            </div>
-            <div class="nav_bar">
+        <div class="container">
+            <nav class="header_content">
+                <div class="title_content">
+                    <img src="./assets/img/Group 40071 (2).png" alt="">
+                    <h1>Hero <span>Travel</span></h1>
+                </div>
                 <ul>
-                    <li><a href=""><span>Home</span></a></li>
+                    <li><a href=""><span class="active">Home</span></a></li>
                     <li><a href="">Packages</a></li>
                     <li><a href="">Testimonial</a></li>
                     <li><a href="">Blog</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </header>
+    <section class="banner">
+        <div class="container">
+            <div class="banner_area">
+                <div class="banner_content">
+                    <h1>Explore Your Travel</h1>
+                    <p>“You must go on adventures to find out where you belong.” <br>— Sue Fitzmaurice</p>
+                    <div class="search_bar">
+                        <input type="search" name="" id="" placeholder="Where go">
+                        <select name="when" id="when">
+                            <option value="" disabled selected>When</option>
+                            <option value="">Jan</option>
+                            <option value="">Feb</option>
+                            <option value="">Mar</option>
+                        </select>
+                        <select name="when" id="when">
+                            <option value="" disabled selected>Select Type</option>
+                            <option value="">Single</option>
+                            <option value="">Couple</option>
+                        </select>
+                        <button class="primary_btn"><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <main></main>
     <footer></footer>
 </body>
