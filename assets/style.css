@@ -490,6 +490,42 @@ h2{
 }
 /* main section end */
 
+/* footer{
+ part start */
+
+.footer{
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+}
+
+.footer .title_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.title_content h1{
+    font-size: 32px;
+}
+
+.footer_area{
+    text-align: center;
+    padding: 110px ;
+}
+
+.footer_area p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--p-tag);
+}
+
+hr{
+    margin-top: 30px;
+    background: rgba(19, 19, 24, 0);
+}
+
+
 
 /* responsive for mobile devices */
 
@@ -714,6 +750,23 @@ h2{
     }
     .save_banner h2{
         font-size: 21px;
+    }
+
+    .footer{
+        margin-top: 32px;
+    }
+
+    .footer_area{
+        padding: 32px ;
+    }    
+    
+    .social_media img{
+        padding: 0 170px 30px;
+        align-content: center;
+    }
+
+    hr{
+        margin-top: 10px;
     }
 
 }
