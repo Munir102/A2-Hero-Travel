@@ -64,6 +64,11 @@ p{
     display: flex;
     gap: 2.75rem;
     font-size: 1.12rem;
+    align-items: center;
+}
+
+.header_content ul>i{
+    display: none;
 }
 
 .header_content ul>li{
@@ -546,9 +551,14 @@ hr{
         height: 34px;
     }
 
-    .header_content ul{
+    .header_content ul li{
         display: none;
     }
+    .header_content ul>i{
+        display: block;
+        font-size: 24px;
+    }
+
     .banner{
         margin: 20px 0;
     }
