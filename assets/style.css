@@ -491,7 +491,7 @@ h2{
 
     /* choose destination css start */
     .choose_destination{
-        margin-top: 32px;
+        margin-top: 36px;
     }
     .destination_content h2{
         font-size: 20px;
@@ -499,7 +499,8 @@ h2{
     }
     .destination_content p{
         width: 309px;
-        margin: 22px auto;
+        margin: 22px auto 0px;
+        font-size: 14px;
     }
 
     .des_img .img_row1{
@@ -513,7 +514,9 @@ h2{
     .img_row1 .img2{
         width: 100%;
     }
-
+    .des_img{
+        margin-top: 22px;
+    }
     .des_img .img_row2{
         display: flex;
         flex-direction: column;
@@ -550,6 +553,51 @@ h2{
     .des_img h3{
         font-size: 24px;
         font-weight: 700;
+    }
+
+    /* why choose us start */
+    .why_choose_us{
+        margin-top: 36px;
+    }
+    .choose_us_card{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .choose_us_content h2{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .choose_us_content p{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 0px 60px;
+    }
+
+    .choose_us_card{
+        margin-top: 22px;
+    }
+
+    .card1{
+        width: 470px;
+        height: 289px;
+    }
+    .card2{
+        width: 470px;
+        height: 289px;
+    }
+    .card3{
+        width: 470px;
+        height: 289px;
+    }
+
+    .card1, .card2 , .card3{
+        padding: 32px;
+        
+    }
+
+    .card1 img, .card2 img, .card3 img{
+        padding-bottom: 16px;
     }
 
 
