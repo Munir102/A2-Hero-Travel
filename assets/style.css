@@ -245,6 +245,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all linear 0.3s;
 }
 
 .img_row1 .img2{
@@ -255,6 +256,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all linear 0.3s;
 }
 
 .des_img .img_row2{
@@ -273,6 +275,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all linear 0.3s;
 }
 
 .img_row2 .img4{
@@ -283,6 +286,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all linear 0.3s;
 }
 
 .img_row2 .img5{
@@ -293,6 +297,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all linear 0.3s;
 }
 
 .des_img .img_row3{
@@ -310,6 +315,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all linear 0.3s;
 }
 
 .img_row3 .img7{
@@ -320,12 +326,18 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all linear 0.3s;
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6, .img7  h3{
     color: #FFF;
     font-size: 28px;
     font-weight: 800;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3), 0 9px 18px rgba(0, 0, 0, 0.3); ;
+    transition: all linear 0.3s;
 }
 
 /* main section end */
@@ -350,10 +362,6 @@ h2{
         height: 34px;
     }
 
-    /* .header_content, .header_content ul{
-        flex-direction: column;
-        text-align: center;
-    } */
     .header_content ul{
         display: none;
     }
@@ -412,6 +420,70 @@ h2{
     .secondary_btn{
         margin-top: 10px;
     }
+
+    /* choose destination css start */
+    .choose_destination{
+        margin-top: 32px;
+    }
+    .destination_content h2{
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .destination_content p{
+        width: 309px;
+        margin: 22px auto;
+    }
+
+    .des_img .img_row1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img_row1 .img1{
+        width: 100%;
+    }
+    .img_row1 .img2{
+        width: 100%;
+    }
+
+    .des_img .img_row2{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .img_row2 .img3{
+        width: 100%;
+        background-size: cover;
+    }
+
+    .img_row2 .img4{
+        width: 100%;
+        background-size: cover;
+    }
+    .img_row2 .img5{
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .des_img .img_row3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img_row3 .img6{
+        width: 100%;
+        background-size: cover;
+    }
+    .img_row3 .img7{
+        width: 100%;
+        background-size: cover;
+    }
+
+    .des_img h3{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
 
 }
 
